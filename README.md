@@ -5,4 +5,11 @@
 3. 프로젝트 2 - 무림 
 4. 프로젝트 3 - 라코스테
 5. 프로젝트 4 - 로얄캐닌
-5. 디자인 작업 - 가로배너 , sns 카드뉴스, 상세정보
+6. 디자인 작업 - 배너 , SNS디자인, 상세페이지
+7. contact me
+
+### 폰트 구성
+1. font-family: 'NanumBarunGothicUltraLight';
+2. font-family: 'NanumBarunGothicLight';
+3. font-family: 'NanumBarunGothic';
+4. font-family: 'NanumBarunGothicBold';

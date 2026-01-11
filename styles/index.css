@@ -1,1 +1,35 @@
 /* index.css 파일 */
+body, html {scroll-behavior: smooth;}
+header {
+    width: 100%;
+}
+header nav{
+    background-color: yellow;
+    width: 1920px;
+    height: 80px;
+    padding-left: 140px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-right: 140px;
+    display: flex;  flex-flow:row nowrap;
+    justify-content: space-between;
+}
+header nav > a{
+    height: 36px;
+    padding: 0 15px;
+    line-height: 36px;
+    border-radius: 20px;
+    background-color: palegreen;
+    /* border-radius: 15px; */
+}
+header nav .right{
+    background-color: blue;
+}
+header nav .right a {
+   
+}
+
+#wrap {
+    background-color: pink;
+    width: 1920px; height: 100vh;
+}
