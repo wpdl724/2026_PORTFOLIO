@@ -1,6 +1,6 @@
 @font-face {
-    font-family: suit;
-    src: url(./fonts/SUIT-REGULAR.OTF);
+    font-family: 'suit';
+    src: url(../styles/fonts/SUIT-THIN.OTF);
 }
 
 /* 모든 태그들에 대한 공통 초기값 세팅 */

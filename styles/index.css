@@ -1,35 +1,101 @@
 /* index.css 파일 */
 body, html {scroll-behavior: smooth;}
 header {
+    display: flex; 
+    text-align: center; 
+    justify-content: space-between;
+    position: fixed; 
+    left: 0;
+    top: 0;
     width: 100%;
+    height: 80px;
+    z-index: 999;
+    /* background-color: yellow; */
 }
 header nav{
-    background-color: yellow;
-    width: 1920px;
-    height: 80px;
-    padding-left: 140px;
-    padding-top: 22px;
-    padding-bottom: 22px;
-    padding-right: 140px;
-    display: flex;  flex-flow:row nowrap;
-    justify-content: space-between;
+    width: 100%;
+    opacity: 1;
+    align-items: center;
+    display: flex; justify-content: space-between;
+    padding: 0 140px;
 }
 header nav > a{
     height: 36px;
     padding: 0 15px;
     line-height: 36px;
     border-radius: 20px;
-    background-color: palegreen;
+    background-color: gray;
     /* border-radius: 15px; */
 }
 header nav .right{
-    background-color: blue;
+    /* background-color: blue; */
+    line-height: 36px;
 }
 header nav .right a {
-   
+   padding: 40px;
+   color: #fff;
+   font-family: suit;
 }
 
 #wrap {
     background-color: pink;
     width: 1920px; height: 100vh;
+}
+
+/* ------------------------------------------------------ */
+/* intro */
+#wrap .swiper-wrapper {}
+#wrap .swiper-wrapper #intro{
+    background-image: url(../images/intro/intro_bg.jpg);
+}
+#wrap .swiper-wrapper #intro .center{
+
+}
+/* span 2026 디자인 */
+#wrap .swiper-wrapper #intro .center .span{
+    position: relative; left: 140px; right: 140px;
+}
+#wrap .swiper-wrapper #intro .center .year_left{
+    /* position: absolute; */
+    background-color: yellow;
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+}
+#wrap .swiper-wrapper #intro .center .year_right{
+        position: absolute;
+    background-color: yellow;
+    text-orientation: upright;
+    writing-mode: vertical-rl;
+}
+    
+#wrap .swiper-wrapper #intro .center h1{
+    /* background-color: yellow; */
+    color: #A8B7DB;
+    font-size: 13.75rem;
+    font-weight: 700;
+    margin-top: 170px;
+    text-align: center;
+}
+#wrap .swiper-wrapper #intro .center .roles_txt{}
+#wrap .swiper-wrapper #intro .center .roles_txt p{}
+
+
+
+/* ------------------ 포트폴리오 바로가기 버튼 */
+#wrap .swiper-wrapper #intro .btn {
+    margin: 0 auto;
+    text-align: center;
+    width: 214px; height: 46px;
+    border-radius: 15px;
+    margin-top: 188px;
+    background-color: #D9D9D9;
+}
+#wrap .swiper-wrapper #intro .btn:hover {
+
+}
+#wrap .swiper-wrapper #intro .btn a {
+    color: #676767;
+    line-height: 46px;
+    font-weight: 500;
+    font-size: 2rem;
 }

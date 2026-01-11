@@ -13,3 +13,13 @@
 2. font-family: 'NanumBarunGothicLight';
 3. font-family: 'NanumBarunGothic';
 4. font-family: 'NanumBarunGothicBold';
+
+## 2026 좌우 배치... 
+* div -> positon을 줄것인가...?
+                    <div class="span">
+                        <span class="year_left">2026</span>
+                        <span class="year_left">2026</span>
+                    </div>
+
+## 텍스트 위 텍스트 겹치기..? 
+- 이미지 위 텍스트로 변경하는게 나을듯..
