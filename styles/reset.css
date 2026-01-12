@@ -2,6 +2,10 @@
     font-family: 'suit';
     src: url(../styles/fonts/SUIT-THIN.OTF);
 }
+@font-face {
+    font-family: 'caveat';
+    src: url(../styles/fonts/CAVEAT-BOLD.TTF);
+}
 
 /* 모든 태그들에 대한 공통 초기값 세팅 */
 html,body,h1,h2,h3,h4,h5,h6,

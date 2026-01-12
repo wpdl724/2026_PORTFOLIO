@@ -10,7 +10,7 @@ header {
     width: 100%;
     height: 80px;
     z-index: 999;
-    /* background-color: yellow; */
+    /* background-color: black; */
 }
 header nav{
     width: 100%;
@@ -24,7 +24,7 @@ header nav > a{
     padding: 0 15px;
     line-height: 36px;
     border-radius: 20px;
-    background-color: gray;
+    border: 1px solid #2f2f2f;
     /* border-radius: 15px; */
 }
 header nav .right{
@@ -34,7 +34,7 @@ header nav .right{
 header nav .right a {
    padding: 40px;
    color: #fff;
-   font-family: suit;
+   font-family: 'suit', sans-serif;
 }
 
 #wrap {
@@ -87,5 +87,64 @@ header nav .right a {
 
 /* 2. 가능기술소개 */
 #wrap #profile1 {
-    background-color: yellow;
+    background: url(../images/bg/text_bg.jpg);
 }
+#wrap #profile1 .title {
+    padding: 88px 140px;
+    margin: 0 auto;
+}
+#wrap #profile1 .title h2{
+    font-size: 2rem;
+    font-family: 'caveat',serif;
+    color: #A8B7DB;
+    margin-bottom: 10px;
+}
+#wrap #profile1 .title > h3{
+    font-size: 2.625rem;
+    font-weight: 700;
+    font-family: 'pretendard', sans-serif;
+    color: #2f2f2f;
+}
+#wrap #profile1 .title h3 em {
+    color: #6184D5;
+    font-weight: 700;
+}
+
+/* ------- 기술소개 박스 */
+#wrap #profile1 .title ul{
+    padding-top: 129px;
+    margin: 0 auto;
+}
+#wrap #profile1 .title .contents{
+    display: flex; flex-flow: row nowrap;
+    text-align: center;
+    gap: 20px;
+    
+}
+#wrap #profile1 .title .contents li {
+    padding: 96px 30px;
+    width: calc(100% / 4);
+    height: 380px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2), 0 4px 4px rgba(0,0,0,0.13);
+
+}
+#wrap #profile1 .title .contents .uiux{}
+#wrap #profile1 .title .contents .web{}
+#wrap #profile1 .title .contents .respon{}
+    
+#wrap #profile1 .title .contents .art{}
+#wrap #profile1 .title .contents li img{}
+#wrap #profile1 .title .contents li h3{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #6184D5;
+}
+#wrap #profile1 .title .contents li p{
+    margin-bottom: 15px;
+    line-height: 20px;
+}
+
