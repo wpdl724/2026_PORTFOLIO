@@ -39,63 +39,50 @@ header nav .right a {
 
 #wrap {
     background-color: pink;
-    width: 1920px; height: 100vh;
+    width: 1920px; height: max-content; height: 100vh;
 }
 
 /* ------------------------------------------------------ */
 /* intro */
-#wrap .swiper-wrapper {}
+#wrap .swiper-wrapper {
+}
+#wrap .swiper-wrapper > .swiper-slide { /* 공통 상단 여백 */
+    padding-top: 80px;
+}
 #wrap .swiper-wrapper #intro{
-    background-image: url(../images/intro/intro_bg.jpg);
+    background-image: url(../images/intro/intro_bg_txt.jpg);
 }
+/* #wrap #intro::after {} */
+
 #wrap .swiper-wrapper #intro .center{
-
+    position: relative;
 }
-/* span 2026 디자인 */
-#wrap .swiper-wrapper #intro .center .span{
-    position: relative; left: 140px; right: 140px;
-}
-#wrap .swiper-wrapper #intro .center .year_left{
-    /* position: absolute; */
-    background-color: yellow;
-    text-orientation: upright;
-    writing-mode: vertical-lr;
-}
-#wrap .swiper-wrapper #intro .center .year_right{
-        position: absolute;
-    background-color: yellow;
-    text-orientation: upright;
-    writing-mode: vertical-rl;
-}
-    
-#wrap .swiper-wrapper #intro .center h1{
-    /* background-color: yellow; */
-    color: #A8B7DB;
-    font-size: 13.75rem;
-    font-weight: 700;
-    margin-top: 170px;
-    text-align: center;
-}
-#wrap .swiper-wrapper #intro .center .roles_txt{}
-#wrap .swiper-wrapper #intro .center .roles_txt p{}
-
-
-
-/* ------------------ 포트폴리오 바로가기 버튼 */
-#wrap .swiper-wrapper #intro .btn {
+/* 포트폴리오 btn */
+#wrap #intro .btn {
+    background-color: #c4c4c4;
+    position: absolute;
+    top: 720px; left: 860px;
     margin: 0 auto;
-    text-align: center;
     width: 214px; height: 46px;
-    border-radius: 15px;
-    margin-top: 188px;
-    background-color: #D9D9D9;
-}
-#wrap .swiper-wrapper #intro .btn:hover {
-
-}
-#wrap .swiper-wrapper #intro .btn a {
-    color: #676767;
+    text-align: center;
     line-height: 46px;
-    font-weight: 500;
     font-size: 2rem;
+    font-weight: 500;
+    border-radius: 10px;
+   
 }
+#wrap #intro .btn:hover {
+    width: 214px; height: 46px;
+    background-color: #020202;  
+}
+#wrap #intro .btn a {    
+    display: block;
+    /* background-color: yellow; */
+    width: 214px; height: 46px;
+    line-height: 46px;
+}
+#wrap #intro .btn a:hover{
+    color: #fff;
+}
+
+/* 2. 가능기술소개 */

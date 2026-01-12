@@ -23,3 +23,56 @@
 
 ## 텍스트 위 텍스트 겹치기..? 
 - 이미지 위 텍스트로 변경하는게 나을듯..
+
+/* span 2026 디자인 */
+/* ---------------- 이미지 삽입 */
+#wrap .swiper-wrapper #intro .center h1{}
+#wrap .swiper-wrapper #intro .center h1 img{width: 100%; height: 100vh;}
+#wrap .swiper-wrapper #intro .center .span{
+    /* position: relative; left: 140px; right: 140px; */
+}
+#wrap .swiper-wrapper #intro .center .year_left{
+    /* position: absolute; */
+    /* background-color: yellow;
+    text-orientation: upright;
+    writing-mode: vertical-lr; */
+}
+#wrap .swiper-wrapper #intro .center .year_right{
+        /* position: absolute;
+    background-color: yellow;
+    text-orientation: upright;
+    writing-mode: vertical-rl; */
+}
+    
+#wrap .swiper-wrapper #intro .center h1{
+    /* background-color: yellow; */
+    /* color: #A8B7DB;
+    font-size: 13.75rem;
+    font-weight: 700;
+    margin-top: 170px;
+    text-align: center; */
+}
+#wrap .swiper-wrapper #intro .center .roles_txt{}
+#wrap .swiper-wrapper #intro .center .roles_txt p{}
+
+
+
+/* ------------------ 포트폴리오 바로가기 버튼 */
+#wrap .swiper-wrapper #intro .btn {
+    margin: 0 auto;
+    text-align: center;
+    width: 214px; height: 46px;
+    border-radius: 15px;
+    /* margin-top: 188px; */
+    background-color: #D9D9D9;
+}
+#wrap .swiper-wrapper #intro .btn:hover {
+    background-color: yellow;
+    color: #fff;
+}
+#wrap .swiper-wrapper #intro .btn a {
+    color: red;
+    line-height: 46px;
+    font-weight: 500;
+    font-size: 2rem;
+}
