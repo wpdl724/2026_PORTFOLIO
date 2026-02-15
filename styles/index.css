@@ -1,4 +1,4 @@
-/* index.css 파일 */
+/* index.css 파일  헤더, 푸터, 기술소개, 프로필 */
 body, html {scroll-behavior: smooth;}
 header {
     display: flex; 
@@ -34,6 +34,57 @@ header nav .right a {
    padding: 40px;
    color: #fff;
    font-family: 'suit', sans-serif;
+}
+
+/* 네비 디자인 */
+/* ---------------- header 기본 ---------------- */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 999;
+    box-shadow : 0.4s ease;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 140px;
+}
+
+header nav .right a {
+    padding: 40px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'suit', sans-serif;
+    transition: color 0.3s ease;
+}
+
+/* active 메뉴 */
+header nav .right a.active {
+    font-weight: 700;
+}
+
+/* ---------------- INTRO 제외 공통 nav 상태 ---------------- */
+
+header.nav-dark {
+    background-image: url("../images/bg/text_bg.jpg"); /* 원하는 이미지 */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.20);
+}
+
+/* 글씨 색상 변경 */
+header.nav-dark nav .right a {
+    color: #2f2f2f;
 }
 
 #wrap {
@@ -83,10 +134,18 @@ header nav .right a {
 #wrap #intro .btn a:hover{
     color: #fff;
 }
+/* ------------------------------------------------------- */
+
+/* 공통 디자인 */
+#wrap #profile1, #profile2, #tamburins, #moorim, #lacoste{
+    background: url(../images/bg/text_bg.jpg);
+
+}
+
 
 /* 2. 가능기술소개 */
+
 #wrap #profile1 {
-    background: url(../images/bg/text_bg.jpg);
 }
 #wrap #profile1 .title {
     padding: 88px 140px;
@@ -108,6 +167,10 @@ header nav .right a {
     color: #6184D5;
     font-weight: 700;
 }
+
+
+
+
 
 /* ------- 기술소개 박스 */
 #wrap #profile1 .title ul{

@@ -1,6 +1,13 @@
 /* 웹 프로젝트 css */
 
 /* 탬버린즈 */
+#wrap .swiper-wrapper #tamburins{
+    width: 100%; height: 100vh;
+}
+
+#wrap .swiper-wrapper #tamburins .web_wrap {
+    height: 100vh;
+}
 /* 무림  */
 /* 라코스테 */
 /* 로얄캐닌 */
