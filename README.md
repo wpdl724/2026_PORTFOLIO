@@ -76,3 +76,31 @@
     font-weight: 500;
     font-size: 2rem;
 }
+/* 포트폴리오 btn */
+#wrap #intro .btn {
+    /* background-color: #c4c4c4; */
+    border: 1px solid #fff;
+    position: absolute;
+    top: 720px; left: 860px;
+    margin: 0 auto;
+    width: 214px; height: 66px;
+    text-align: center;
+    line-height: 46px;
+    font-size: 2rem;
+    font-weight: 500;
+    border-radius: 30px;
+   
+}
+#wrap #intro .btn:hover {
+    width: 214px; height: 46px;
+    background-color: #020202;  
+}
+#wrap #intro .btn a {    
+    display: block;
+    /* background-color: yellow; */
+    width: 214px; height: 46px;
+    line-height: 46px;
+}
+#wrap #intro .btn a:hover{
+    color: #fff;
+}

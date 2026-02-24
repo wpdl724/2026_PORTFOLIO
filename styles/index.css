@@ -1,5 +1,5 @@
 /* index.css 파일  헤더, 푸터, 기술소개, 프로필 */
-body, html {scroll-behavior: smooth;}
+body, html, a{scroll-behavior: smooth; cursor: url(../images/pointer/pointer48.png) 16 16, auto;}
 header {
     display: flex; 
     text-align: center; 
@@ -109,11 +109,11 @@ header.nav-dark nav .right a {
 }
 /* 포트폴리오 btn */
 #wrap #intro .btn {
-    background-color: #c4c4c4;
+    /* background-color: #c4c4c4; */
     position: absolute;
     top: 720px; left: 860px;
     margin: 0 auto;
-    width: 214px; height: 46px;
+    width: 214px; height: 60px;
     text-align: center;
     line-height: 46px;
     font-size: 2rem;
@@ -121,19 +121,14 @@ header.nav-dark nav .right a {
     border-radius: 10px;
    
 }
-#wrap #intro .btn:hover {
-    width: 214px; height: 46px;
-    background-color: #020202;  
-}
+
 #wrap #intro .btn a {    
     display: block;
     /* background-color: yellow; */
     width: 214px; height: 46px;
     line-height: 46px;
 }
-#wrap #intro .btn a:hover{
-    color: #fff;
-}
+
 /* ------------------------------------------------------- */
 
 /* 공통 디자인 */
