@@ -89,7 +89,7 @@ header.nav-dark nav .right a {
 
 #wrap {
     background-color: white;
-    width: 1920px; height: max-content; height: 100vh;
+    width: 100%; height: max-content; height: 100vh;
 }
 
 /* ------------------------------------------------------ */
@@ -107,27 +107,21 @@ header.nav-dark nav .right a {
 #wrap .swiper-wrapper #intro .center{
     position: relative;
 }
-/* 포트폴리오 btn */
-#wrap #intro .btn {
-    /* background-color: #c4c4c4; */
+/* 포트폴리오 마우스 이미지 */
+#wrap .swiper-wrapper #intro .scroll_img{
     position: absolute;
-    top: 720px; left: 860px;
-    margin: 0 auto;
-    width: 214px; height: 60px;
-    text-align: center;
-    line-height: 46px;
-    font-size: 2rem;
-    font-weight: 500;
-    border-radius: 10px;
-   
+    left: 50%; bottom: 100px;
+    transform: translateX(-50%);
+}
+#wrap .swiper-wrapper #intro .scroll_img .scrollmouse{
+    width: 70px; height: 70px;
+    animation: motion 0.6s linear 0s infinite alternate; margin-top: 0;
+}
+@keyframes motion {
+    0% {transform: translateY(0);}
+    100% {transform: translateY(10px);}
 }
 
-#wrap #intro .btn a {    
-    display: block;
-    /* background-color: yellow; */
-    width: 214px; height: 46px;
-    line-height: 46px;
-}
 
 /* ------------------------------------------------------- */
 
