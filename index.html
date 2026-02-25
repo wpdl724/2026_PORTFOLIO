@@ -12,11 +12,12 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- pretendard -->
-    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css" />
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css" />
     <!-- SUIT -->
     <link href="https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css" rel="stylesheet">
     <!-- caveat -->
-     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
     <!-- design -->
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/index.css">
@@ -25,7 +26,7 @@
     <script src="./scripts/index.js" defer></script>
     <script src="./scripts/scroll.js" defer></script>
     <!-- favicon -->
-     <link rel="icon" type="img/png" href="./images/favicon/favicon.png">
+    <link rel="icon" type="img/png" href="./images/favicon/favicon.png">
 </head>
 
 <body>
@@ -90,45 +91,95 @@
                 </div><!--타이틀 끝-->
             </div>
             <!-- 프로필 소개 -->
-            <div class="swiper-slide" id="profile2">
-                <div class="title">
+            <div class="swiper-slide" id="profile2"> <!--profile wrap-->
+                <div class="title"> <!--top-->
                     <h2>Nice to meet you!</h2>
                     <h3>안녕하세요.</h3>
-                    <p>배움을 두려워하지 않는 웹퍼블리셔 정지연 입니다.</p>
+                    <p>새로운 도전과 배움을 두려워하지 않고</p>
+                    <p>디자인과 구현을 함께 고민하며 사용자 경험을 설계하는 <em>웹디자인 & 퍼블리셔 정지연</em>입니다.</p>
                 </div>
-                <ul class="contnets">
-                    <li><!--스킬 영역-->
-                        <h3>Used skill</h3>
-                        <p><em>UI UX</em>사용자의 리서치, 레퍼런스 조사 및 분석 가능</p>
-                        <p><em>Figma</em>UI UX 와이어프레임, 프로토타입 설계가능</p>
-                        <p><em>Photoshop</em>웹, 배너광고, 상세페이지 제작 가능</p>
-                        <p><em>Illustrator</em>로고, 캐릭터 디자인 제작 가능</p>
-                        <p><em>Notion</em>체계적인 업무 히스토리 관리, 팀협업 업무 가능</p>
-                        <p><em>Figma</em>UI UX 와이어프레임, 프로토타입 설계가능</p>
-
-                    </li>
-                    <li><!--프로필 영역-->
-                        <h3>Profile</h3> <!--프로필 영역-->
-                        <p><em>Name</em>정지연</p>
-                        <p><em>Birth</em>1996. 07. 24</p>
-                        <p><em>Tell</em>010 . 8131 . 9300</p>
-                        <p><em>E-mail</em>wpdl724@gmail.com</p>
-                        <p><em>GitHub</em>https://github.com/wpdl724</p>
-                    </li>
-                    <li><!--교육 영역-->
-                        <h3>Education</h3> <!--교육 영역-->
-                        <p><em>Name</em>정지연</p>
-                        <p><em>Birth</em>1996. 07. 24</p>
-                        <p><em>Tell</em>010 . 8131 . 93..</p>
-                        <p><em>E-mail</em>wpdl724@gmail.com</p>
-                        <p><em>GitHub</em>010 . 8131 . 93..</p>
-                    </li>
-                    <li><!--자격증 영역-->
-                        <h3>License</h3> <!--자격증 영역-->
-                        <p><em>2025. 12</em>자동차운전면허증 1종 보통</p>
-                        <p><em>2019. 02</em>중등학교 2급 정교사 (미술)</p>
-                    </li>
-                </ul>
+                <div class="contents"><!--s :bottom wrap-->
+                    <div class="left_box"> <!--s :프로필 왼쪽 (이름,나이,번호,이메일,깃허브)-->
+                        <div class="profile_wrap">
+                            <h2><img src="./images/icons/icon24.png" alt="타이틀아이콘">Profile</h2> <!-- profile 타이틀제목-->
+                            <ul class="profile"> <!--s: 프로필내용-->
+                                <li>
+                                    <em>Name.</em>
+                                    <p>정지연</p>
+                                </li>
+                                <li>
+                                    <em>Birth.</em>
+                                    <p>1996. 07. 24</p>
+                                </li>
+                                <li>
+                                    <em>Mob.</em>
+                                    <p>010 - 8131 - 9300</p>
+                                </li>
+                                <li>
+                                    <em>E-Mail.</em>
+                                    <p>wpdl724@gmail.com</p>
+                                </li>
+                                <li>
+                                    <em>Github.</em>
+                                    <a href="https://github.com/wpdl724" class="github" target="_blank">
+                                        <p>https://github.com/wpdl724</p>
+                                    </a>
+                                </li>
+                            </ul><!--e :프로필내용-->
+                        </div>
+                        <div class="license_wrap"> <!--s :license 큰묶음-->
+                            <h2><img src="./images/icons/icon24.png" alt="타이틀아이콘">License</h2> <!-- License 타이틀제목-->
+                            <ul class="license"> <!--자격증-->
+                                <li>
+                                    <em>2025. 12</em>
+                                    <p>자동차운전면허증 1종 보통</p>
+                                </li>
+                                <li>
+                                    <em>2019. 02</em>
+                                    <p>중등학교 2급 정교사 (미술)</p>
+                                </li>
+                            </ul>
+                        </div><!--e :license 큰묶음-->
+                    </div><!--e : 프로필 왼쪽 (이름,나이,번호,이메일,깃허브)-->
+                    <div class="centerbox"> <!--s :edu, tools 전체 묶음-->
+                        <div class="edu_wrap"> <!--s :edu 내용 묶음-->
+                            <h2><img src="./images/icons/icon24.png" alt="타이틀아이콘">Education</h2> <!--edu 타이틀 제목-->
+                            <ul class="edu"> <!--edu 내용-->
+                                <li>
+                                    <em>2025. 08</em>
+                                    <p>ui/ux 프론트엔드 반응형 웹 디자인 & 웹퍼블리셔 (웹,앱,피그마) 개발 양성과정</p>
+                                </li>
+                                <li>
+                                    <em>2025. 03</em>
+                                    <p>웹퍼블리싱 & 웹개발을 위한 코딩 기초 (그린온라인캠프 과정)</p>
+                                </li>
+                            </ul>
+                        </div><!--e :edu 내용 묶음-->
+                        <div class="tools_wrap"> <!--s :tools 내용 묶음-->
+                            <h2><img src="./images/icons/icon24.png" alt="타이틀아이콘">Tools</h2> <!--tools 타이틀 제목-->
+                            <div class="toolbox_wrap">
+                                <ul class="box1">
+                                    <li><img src="./images/icons/tools/01_figma.png" alt="피그마"></li>
+                                    <li><img src="./images/icons/tools/02_photo.png" alt="포토샵"></li>
+                                    <li><img src="./images/icons/tools/03_illus.png" alt="일러스트레이터"></li>
+                                    <li><img src="./images/icons/tools/04_chat.png" alt="gpt"></li>
+                                    <li><img src="./images/icons/tools/05_genai.png" alt="genai"></li>
+                                </ul>
+                                <ul class="box2">
+                                    <li><img src="./images/icons/tools/06_html5.png" alt="html5"></li>
+                                    <li><img src="./images/icons/tools/07_css.png" alt="css3"></li>
+                                    <li><img src="./images/icons/tools/08_js.png" alt="js"></li>
+                                    <li><img src="./images/icons/tools/09_jq.png" alt="jq"></li>
+                                    <li><img src="./images/icons/tools/10_react.png" alt="react"></li>
+                                </ul>
+                                <ul class="box3">
+                                    <li><img src="./images/icons/tools/11_notion.png" alt="notion"></li>
+                                    <li><img src="./images/icons/tools/12_git.png" alt="github"></li>
+                                </ul>
+                            </div>
+                        </div><!--e :tools 내용 묶음-->
+                    </div> <!--e :edu, tools 전체 묶음-->
+                </div><!--e : bottom wrap-->
             </div>
             <!-- 프로젝트 소개 영역 -->
             <div class="swiper-slide web_project" id="tamburins"><!--탬버린즈 슬라이드영역-->
@@ -275,7 +326,7 @@
                     </div>
                 </div><!--라코스테 전체 큰묶음 끝-->
             </div><!--라코스테 슬라이드영역 끝-->
-            <div class="swiper-slide web_project" id="moorim"><!--로얄캐닌 슬라이드영역-->
+            <div class="swiper-slide web_project" id="royalcain"><!--로얄캐닌 슬라이드영역-->
                 <div class="web_wrap"><!--로얄캐닌 전체큰묶음(정보,섬네일묶음)-->
                     <div class="container left"><!--로얄캐닌 왼쪽 정보 큰묶음 -->
                         <div class="content"><!--프로젝트 내용 큰묶음 3개 있어야됨-->
@@ -324,7 +375,7 @@
                 </div><!--로얄캐닌 전체 큰묶음 끝-->
             </div><!--로얄캐닌 슬라이드영역 끝-->
             <!-- 디자인 프로젝트 소개 -->
-             <div class="swiper-slide" id="project2">
+            <div class="swiper-slide" id="project2">
                 <div class="title">
                     <h2>DESIGN WORKS</h2>
                     <p>SNS, 배너, 상세페이지</p>
@@ -360,14 +411,14 @@
                         </div>
                     </div>
                 </div>
-             </div>
-             <!-- 엔딩 페이지 영역-->
-              <div class="swiper-slide" id="end_pg">
+            </div>
+            <!-- 엔딩 페이지 영역-->
+            <div class="swiper-slide" id="end_pg">
                 <div class="title">
                     <h1>thank you for watching</h1>
                 </div>
-              </div>
-             <!-- 엔딩 페이지 영역 끝-->
+            </div>
+            <!-- 엔딩 페이지 영역 끝-->
         </div><!--스와이퍼 큰묶음 끝-->
     </div>
 </body>
