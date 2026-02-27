@@ -100,7 +100,8 @@ header.nav-dark nav .right a {
     padding-top: 80px;
 }
 #wrap .swiper-wrapper #intro{
-    background-image: url(../images/intro/intro_bg_portfolio.jpg);
+    /* background-image: url(../images/intro/intro_bg_portfolio.jpg); 변경*/
+    background-image: url(../images/bg/cover_bg_03.jpg);
 }
 /* #wrap #intro::after {} */
 
